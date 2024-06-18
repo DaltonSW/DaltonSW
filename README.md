@@ -1,6 +1,6 @@
-## Hi there 👋
+## Howdy!
 
-![My GitHub stats](https://github-readme-stats.vercel.app/api?username=daltonsw&show_icons=true&theme=dracula)
+[![My Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=daltonsw&theme=dracula)](https://github.com/daltonsw)
 
 <!--
 **DaltonSW/DaltonSW** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
