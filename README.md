@@ -1,4 +1,5 @@
 ## Howdy!
+[![My Stats](https://github-readme-stats.vercel.app/api/?username=daltonsw&theme=dracula&include_all_commits=true&hide_rank=true)](https://github.com/daltonsw)
 
 [![My Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=daltonsw&theme=dracula)](https://github.com/daltonsw)
 
