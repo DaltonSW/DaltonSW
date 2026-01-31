@@ -4,8 +4,11 @@ My name is Dalton. I like writing software that I think is nifty. Hopefully you 
 
 ## Stable Projects
 
-- aocli: A beautiful and snappy CLI program for interacting with Advent of Code entirely from your terminal. - [Repo](https://github.com/DaltonSW/aocgo/tree/main/cmd/aocli)
-- PokeTerm: A quick and stylish terminal-based PokeDex. - [Repo](https://github.com/DaltonSW/PokeTerm)
+- [aocli](https://github.com/DaltonSW/aocgo/tree/main/cmd/aocli): A beautiful and snappy CLI program for interacting with Advent of Code entirely from your terminal
+- [campfire](https://github.com/DaltonSW/campfire): Cozy up to your log files as you give the facelift and respect they deserve
+- [stylish](https://github.com/DaltonSW/stylish): A simple way to customize your terminal's `LSCOLORS` setup
+- [PokeTerm](https://github.com/DaltonSW/PokeTerm): A quick and stylish terminal-based PokeDex
+- [prism](https://github.com/DaltonSW/Prism): Run your Go tests and benchmarks with some glamour
 
 ## WIP Projects
 
