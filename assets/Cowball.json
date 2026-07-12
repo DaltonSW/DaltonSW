@@ -1,0 +1,37 @@
+{
+  "content": {
+    "title": "Cowball",
+    "subtitle": "7 Day Roguelike Jam 2023 submission.",
+    "tags": [
+      "roguelike",
+      "game-jam",
+      "2023"
+    ],
+    "repo_url": "github.com/daltonsw/7drl-2023"
+  },
+  "title": {
+    "size": 68,
+    "font": "Rye",
+    "colors": [
+      "#92400E",
+      "#F59E0B"
+    ],
+    "gradient_dir": "right"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

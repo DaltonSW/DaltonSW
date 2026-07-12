@@ -1,0 +1,37 @@
+{
+  "content": {
+    "title": "Termina",
+    "subtitle": "A programming language, but it's made by me, because I think it sounds neat.",
+    "tags": [
+      "go",
+      "language",
+      "wip"
+    ],
+    "repo_url": "github.com/daltonsw/termina"
+  },
+  "title": {
+    "size": 68,
+    "font": "Major Mono Display",
+    "colors": [
+      "#022C22",
+      "#4ADE80"
+    ],
+    "gradient_dir": "up"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

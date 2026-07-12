@@ -1,0 +1,37 @@
+{
+  "content": {
+    "title": "aocgo",
+    "subtitle": "Go Module for interacting with Advent of Code. Includes utilities for common puzzle things.",
+    "tags": [
+      "go",
+      "bubbletea",
+      "library"
+    ],
+    "repo_url": "github.com/daltonsw/aocgo"
+  },
+  "title": {
+    "size": 68,
+    "font": "Silkscreen",
+    "colors": [
+      "#00ADD8",
+      "#375EAB"
+    ],
+    "gradient_dir": "right"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "title": "PokeTerm",
+    "subtitle": "A quick and stylish terminal-based PokeDex.",
+    "tags": [
+      "python",
+      "tui",
+      "pokemon"
+    ],
+    "repo_url": "github.com/daltonsw/poketerm"
+  },
+  "title": {
+    "size": 68,
+    "font": "VT323",
+    "colors": [
+      "#FFFFFF",
+      "#EE1515"
+    ],
+    "gradient_dir": "right"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

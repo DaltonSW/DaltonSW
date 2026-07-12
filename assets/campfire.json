@@ -1,0 +1,38 @@
+{
+  "content": {
+    "title": "campfire",
+    "subtitle": "Cozy up to your log files and give them the facelift they deserve.",
+    "tags": [
+      "go",
+      "cli",
+      "logs"
+    ],
+    "repo_url": "github.com/daltonsw/campfire"
+  },
+  "title": {
+    "size": 68,
+    "font": "Fredoka",
+    "colors": [
+      "#7C2D12",
+      "#F97316",
+      "#FDE047"
+    ],
+    "gradient_dir": "up"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

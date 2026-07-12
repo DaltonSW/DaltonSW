@@ -1,0 +1,38 @@
+{
+  "content": {
+    "title": "BubbleUp",
+    "subtitle": "Float your alerts to the top of your BubbleTea applications like, well, a bubble!",
+    "tags": [
+      "go",
+      "bubbletea",
+      "library"
+    ],
+    "repo_url": "github.com/daltonsw/bubbleup"
+  },
+  "title": {
+    "size": 68,
+    "font": "Bubblegum Sans",
+    "colors": [
+      "#38BDF8",
+      "#A78BFA",
+      "#F472B6"
+    ],
+    "gradient_dir": "up"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "content": {
+    "title": "YouTerm",
+    "subtitle": "A fast, non-algorithmic terminal-based YouTube subscription box.",
+    "tags": [
+      "go",
+      "tui",
+      "youtube"
+    ],
+    "repo_url": "github.com/terminality/youterm"
+  },
+  "title": {
+    "size": 68,
+    "font": "Bebas Neue",
+    "colors": [
+      "#FF0000",
+      "#FFFFFF"
+    ],
+    "gradient_dir": "right"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

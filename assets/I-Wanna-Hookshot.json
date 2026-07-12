@@ -1,0 +1,36 @@
+{
+  "content": {
+    "title": "I Wanna Hookshot",
+    "subtitle": "GMTK Jam 2018 submission.",
+    "tags": [
+      "game-jam",
+      "gmtk-2018"
+    ],
+    "repo_url": "github.com/daltonsw/gmtk2018"
+  },
+  "title": {
+    "size": 34,
+    "font": "Press Start 2P",
+    "colors": [
+      "#94A3B8",
+      "#EF4444"
+    ],
+    "gradient_dir": "right"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

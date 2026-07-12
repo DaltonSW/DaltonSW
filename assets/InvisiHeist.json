@@ -1,0 +1,36 @@
+{
+  "content": {
+    "title": "InvisiHeist",
+    "subtitle": "GMTK Jam 2022 submission.",
+    "tags": [
+      "game-jam",
+      "gmtk-2022"
+    ],
+    "repo_url": "github.com/daltonsw/gmtk-22"
+  },
+  "title": {
+    "size": 68,
+    "font": "Oswald",
+    "colors": [
+      "#4C1D95",
+      "#0D9488"
+    ],
+    "gradient_dir": "right"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

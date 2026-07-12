@@ -1,0 +1,37 @@
+{
+  "content": {
+    "title": "spruce",
+    "subtitle": "Update all your system- and user-level packages in one pretty place.",
+    "tags": [
+      "go",
+      "cli",
+      "packages"
+    ],
+    "repo_url": "github.com/daltonsw/spruce"
+  },
+  "title": {
+    "size": 68,
+    "font": "Poppins",
+    "colors": [
+      "#1B4332",
+      "#74C69D"
+    ],
+    "gradient_dir": "up"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

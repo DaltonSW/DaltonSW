@@ -1,0 +1,37 @@
+{
+  "content": {
+    "title": "EnviroMetal",
+    "subtitle": "A 2D platformer made for My First Game Jam, Winter 2022.",
+    "tags": [
+      "unity",
+      "platformer",
+      "game-jam"
+    ],
+    "repo_url": "github.com/daltonsw/myfirstgamejam-winter2022"
+  },
+  "title": {
+    "size": 68,
+    "font": "Staatliches",
+    "colors": [
+      "#4ADE80",
+      "#C2410C"
+    ],
+    "gradient_dir": "right"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

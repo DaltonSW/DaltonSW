@@ -1,0 +1,42 @@
+{
+  "content": {
+    "title": "prism",
+    "subtitle": "Turn raw test output into beautiful data.",
+    "tags": [
+      "go",
+      "cli",
+      "testing"
+    ],
+    "repo_url": "github.com/daltonsw/prism"
+  },
+  "title": {
+    "size": 68,
+    "font": "Space Grotesk",
+    "colors": [
+      "#FFFFFF",
+      "#F43F5E",
+      "#FB923C",
+      "#FACC15",
+      "#4ADE80",
+      "#38BDF8",
+      "#A78BFA"
+    ],
+    "gradient_dir": "right"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

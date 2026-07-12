@@ -1,0 +1,38 @@
+{
+  "content": {
+    "title": "aocli",
+    "subtitle": "A beautiful and snappy CLI for interacting with Advent of Code from your terminal.",
+    "tags": [
+      "go",
+      "cli",
+      "advent-of-code"
+    ],
+    "repo_url": "github.com/daltonsw/aocgo"
+  },
+  "title": {
+    "size": 68,
+    "font": "Mountains of Christmas",
+    "colors": [
+      "#B91C1C",
+      "#FBBF24",
+      "#15803D"
+    ],
+    "gradient_dir": "right"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}

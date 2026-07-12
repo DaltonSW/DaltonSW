@@ -1,0 +1,37 @@
+{
+  "content": {
+    "title": "headline",
+    "subtitle": "A CLI tool for making stylish headers from simple config files.",
+    "tags": [
+      "go",
+      "cli",
+      "images"
+    ],
+    "repo_url": "github.com/daltonsw/headline"
+  },
+  "title": {
+    "size": 68,
+    "font": "Jersey 25",
+    "colors": [
+      "#FF8C00",
+      "#FF2D95"
+    ],
+    "gradient_dir": "right"
+  },
+  "output": {
+    "banner": {
+      "width": 1200,
+      "height": 220,
+      "name": "banner"
+    },
+    "thin_banner": {
+      "width": 900,
+      "height": 140,
+      "body_size": 20
+    }
+  },
+  "body": {
+    "font": "Martian Mono",
+    "size": 24
+  }
+}
