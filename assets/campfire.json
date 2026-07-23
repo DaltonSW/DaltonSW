@@ -11,13 +11,12 @@
   },
   "title": {
     "size": 68,
-    "font": "Fredoka",
+    "font": "Space Grotesk",
     "colors": [
-      "#7C2D12",
-      "#F97316",
-      "#FDE047"
+      "#9350E2",
+      "#CA50E2"
     ],
-    "gradient_dir": "up"
+    "gradient_dir": "right"
   },
   "output": {
     "banner": {

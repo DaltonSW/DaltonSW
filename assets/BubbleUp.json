@@ -11,13 +11,12 @@
   },
   "title": {
     "size": 68,
-    "font": "Bubblegum Sans",
+    "font": "Space Grotesk",
     "colors": [
-      "#38BDF8",
-      "#A78BFA",
-      "#F472B6"
+      "#E28150",
+      "#E2B850"
     ],
-    "gradient_dir": "up"
+    "gradient_dir": "right"
   },
   "output": {
     "banner": {

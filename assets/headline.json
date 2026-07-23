@@ -11,10 +11,10 @@
   },
   "title": {
     "size": 68,
-    "font": "Jersey 25",
+    "font": "Space Grotesk",
     "colors": [
-      "#FF8C00",
-      "#FF2D95"
+      "#507AE2",
+      "#5C50E2"
     ],
     "gradient_dir": "right"
   },

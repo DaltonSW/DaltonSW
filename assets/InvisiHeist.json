@@ -10,10 +10,10 @@
   },
   "title": {
     "size": 68,
-    "font": "Oswald",
+    "font": "Space Grotesk",
     "colors": [
-      "#4C1D95",
-      "#0D9488"
+      "#50E26E",
+      "#50E2A5"
     ],
     "gradient_dir": "right"
   },

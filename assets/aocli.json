@@ -11,11 +11,10 @@
   },
   "title": {
     "size": 68,
-    "font": "Mountains of Christmas",
+    "font": "Space Grotesk",
     "colors": [
-      "#B91C1C",
-      "#FBBF24",
-      "#15803D"
+      "#5C50E2",
+      "#9350E2"
     ],
     "gradient_dir": "right"
   },

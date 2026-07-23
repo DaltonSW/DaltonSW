@@ -11,12 +11,12 @@
   },
   "title": {
     "size": 68,
-    "font": "Poppins",
+    "font": "Space Grotesk",
     "colors": [
-      "#1B4332",
-      "#74C69D"
+      "#50B1E2",
+      "#507AE2"
     ],
-    "gradient_dir": "up"
+    "gradient_dir": "right"
   },
   "output": {
     "banner": {

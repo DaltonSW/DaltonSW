@@ -11,14 +11,10 @@
   },
   "title": {
     "size": 68,
-    "font": "Boogaloo",
+    "font": "Space Grotesk",
     "colors": [
-      "#EF4444",
-      "#F59E0B",
-      "#EAB308",
-      "#22C55E",
-      "#3B82F6",
-      "#8B5CF6"
+      "#CA50E2",
+      "#E250C4"
     ],
     "gradient_dir": "right"
   },

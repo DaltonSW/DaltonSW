@@ -11,10 +11,10 @@
   },
   "title": {
     "size": 68,
-    "font": "Silkscreen",
+    "font": "Space Grotesk",
     "colors": [
-      "#00ADD8",
-      "#375EAB"
+      "#E25056",
+      "#E28150"
     ],
     "gradient_dir": "right"
   },

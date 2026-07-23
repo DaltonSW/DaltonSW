@@ -10,10 +10,10 @@
   },
   "title": {
     "size": 34,
-    "font": "Press Start 2P",
+    "font": "Space Grotesk",
     "colors": [
-      "#94A3B8",
-      "#EF4444"
+      "#9FE250",
+      "#68E250"
     ],
     "gradient_dir": "right"
   },

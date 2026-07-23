@@ -11,10 +11,10 @@
   },
   "title": {
     "size": 68,
-    "font": "Bebas Neue",
+    "font": "Space Grotesk",
     "colors": [
-      "#FF0000",
-      "#FFFFFF"
+      "#D6E250",
+      "#9FE250"
     ],
     "gradient_dir": "right"
   },

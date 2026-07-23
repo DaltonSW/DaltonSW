@@ -11,12 +11,12 @@
   },
   "title": {
     "size": 68,
-    "font": "Major Mono Display",
+    "font": "Space Grotesk",
     "colors": [
-      "#022C22",
-      "#4ADE80"
+      "#E2B850",
+      "#D6E250"
     ],
-    "gradient_dir": "up"
+    "gradient_dir": "right"
   },
   "output": {
     "banner": {

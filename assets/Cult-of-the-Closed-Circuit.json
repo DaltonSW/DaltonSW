@@ -10,11 +10,11 @@
     "repo_url": "github.com/daltonsw/mvm23"
   },
   "title": {
-    "size": 44,
-    "font": "Rajdhani",
+    "size": 30,
+    "font": "Space Grotesk",
     "colors": [
-      "#7C3AED",
-      "#84CC16"
+      "#50E2DC",
+      "#50B1E2"
     ],
     "gradient_dir": "right"
   },
