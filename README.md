@@ -23,9 +23,11 @@ My name is Dalton. I like writing software that I think is nifty, mostly Go tool
 
 <p align="center">
 <a href="https://github.com/DaltonSW/aocgo"><img src="assets/aocgo_thin_banner.png" width="500" alt="aocgo"></a><br>
-<a href="https://pkg.go.dev/go.dalton.dog/aocgo">Go Pkg</a><br><br>
+<a href="https://pkg.go.dev/go.dalton.dog/aocgo">go.dalton.dog/aocgo</a><br><br>
 <a href="https://github.com/DaltonSW/BubbleUp"><img src="assets/BubbleUp_thin_banner.png" width="500" alt="BubbleUp"></a><br>
-<a href="https://pkg.go.dev/go.dalton.dog/bubbleup">Go Pkg</a>
+<a href="https://pkg.go.dev/go.dalton.dog/bubbleup">go.dalton.dog/bubbleup</a><br><br>
+<a href="https://github.com/DaltonSW/bark"><img src="assets/bark_thin_banner.png" width="500" alt="bark"></a><br>
+<a href="https://pkg.go.dev/go.dalton.dog/bark">go.dalton.dog/bark</a>
 </p>
 
 ## WIP Projects

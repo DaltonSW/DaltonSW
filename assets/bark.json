@@ -1,20 +1,20 @@
 {
   "content": {
-    "title": "PokeTerm",
-    "subtitle": "A quick and stylish terminal-based PokeDex.",
+    "title": "bark",
+    "subtitle": "A minimalistic logging module focused on short-term execution contexts.",
     "tags": [
-      "python",
-      "tui",
-      "pokemon"
+      "go",
+      "logging",
+      "library"
     ],
-    "repo_url": "github.com/daltonsw/poketerm"
+    "repo_url": "github.com/daltonsw/bark"
   },
   "title": {
     "size": 68,
     "font": "Space Grotesk",
     "colors": [
-      "#E250D4",
-      "#E250A0"
+      "#E29A50",
+      "#E2CE50"
     ],
     "gradient_dir": "right"
   },
