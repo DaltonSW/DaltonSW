@@ -13,8 +13,8 @@
     "size": 68,
     "font": "Space Grotesk",
     "colors": [
-      "#E29A50",
-      "#E2CE50"
+      "#EF9120",
+      "#D4A220"
     ],
     "gradient_dir": "right"
   },
@@ -27,11 +27,16 @@
     "thin_banner": {
       "width": 900,
       "height": 140,
-      "body_size": 20
+      "body_size": 20,
+      "template": "thin_banner.html.tmpl",
+      "title_size": 45
     }
   },
   "body": {
     "font": "Martian Mono",
     "size": 24
+  },
+  "background": {
+    "tint_amount": 0.16
   }
 }

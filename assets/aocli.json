@@ -7,14 +7,14 @@
       "cli",
       "advent-of-code"
     ],
-    "repo_url": "github.com/daltonsw/aocgo"
+    "repo_url": "github.com/daltonsw/aocgo/tree/main/cmd/aocli"
   },
   "title": {
     "size": 68,
     "font": "Space Grotesk",
     "colors": [
-      "#5550E2",
-      "#8950E2"
+      "#94A3FB",
+      "#B496FB"
     ],
     "gradient_dir": "right"
   },
@@ -27,11 +27,16 @@
     "thin_banner": {
       "width": 900,
       "height": 140,
-      "body_size": 20
+      "body_size": 20,
+      "template": "thin_banner.html.tmpl",
+      "title_size": 45
     }
   },
   "body": {
     "font": "Martian Mono",
     "size": 24
+  },
+  "background": {
+    "tint_amount": 0.16
   }
 }

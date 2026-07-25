@@ -1,0 +1,58 @@
+{{/* thin_banner (DaltonSW override of headline's built-in).
+
+     Differs from the built-in in exactly one way: the subtitle lives in a
+     fixed-width, LEFT-aligned column instead of shrink-to-fit and
+     right-aligned.
+
+     Why: the built-in uses justify-content:space-between with flex:none on
+     the title, so the subtitle gets whatever width the title happens to
+     leave. Across a README full of these, the subtitle's left edge landed
+     anywhere from x=257 to x=608 and the title->subtitle gutter swung from
+     68px to 243px, so a vertical stack of banners had no column for the eye
+     to lock onto. Pinning the subtitle column makes every banner share one
+     vertical axis and wrap at one width.
+
+     Second effect, deliberate: the title box is now flex:1;min-width:0
+     rather than flex:none, so an over-long title (see
+     Cult-of-the-Closed-Circuit) wraps to a second line at full size instead
+     of needing a hand-shrunk title.size. Keep title.size uniform across
+     configs; let this box do the fitting.
+
+     The 360px subtitle column below is tuned against the 900x140 output
+     these configs use, and it is a two-sided fit -- don't nudge it without
+     re-rendering everything:
+       - The title box gets what's left (inner width - 80 padding - 32 gap
+         - 360 = 412px). At output.thin_banner.title_size 45 that is just
+         wide enough to keep "I Wanna Hookshot" -- the longest title that
+         still fits on one line -- unwrapped. It wraps at 46, or at 45 if
+         this column grows past ~370.
+       - Going much below 360 pushes the longest subtitle (aocgo, 91 chars)
+         from 3 lines to 4, which is what made the old banners feel cramped.
+
+     Vertical centering: inherited verbatim from the built-in, and load
+     bearing. The row below deliberately does NOT set align-items:center on
+     itself -- Ogre's flex align-items:center miscalculates the cross-axis
+     offset when a row's direct children have very different intrinsic
+     heights (title vs. subtitle here) and can shove the taller child down
+     instead of centering it. Each direct child instead gets its own
+     explicit height (.InnerHeight, px) + display:flex;align-items:center so
+     it self-centers in isolation. Don't reintroduce align-items:center on
+     the outer row without re-verifying at several title/body size ratios. */}}
+<div style="display:flex;justify-content:center;align-items:center;width:{{.Size.Width}}px;height:{{.Size.Height}}px;box-sizing:border-box;{{borderFrameCSS .Border .Title}}">
+<div style="display:flex;flex-direction:row;justify-content:space-between;width:{{.InnerWidth}}px;height:{{.InnerHeight}}px;padding:0 40px;{{canvasBackgroundCSS .Background .Title}}box-sizing:border-box;gap:32px;{{contentRadiusCSS .Border}}">
+
+  {{/* Title (+ optional icon), left-aligned, self-centered in its own
+       full-height box (see the note above). flex:1;min-width:0 lets a long
+       title wrap rather than squeeze the subtitle column. */}}
+  <div style="display:flex;flex-direction:{{if eq .Icon.Position "right"}}row-reverse{{else}}row{{end}};align-items:center;gap:24px;flex:1;min-width:0;height:{{.InnerHeight}}px">
+    {{if notBlank .IconSource}}
+    <img src="{{.IconSource}}" style="width:{{.Icon.Size}}px;height:{{.Icon.Size}}px;object-fit:contain;flex-shrink:0;" />
+    {{end}}
+    {{titleLineHTML .Title .Content.Title "left"}}
+  </div>
+
+  {{if notBlank .Content.Subtitle}}
+  <div style="display:flex;align-items:center;justify-content:flex-start;width:360px;flex:none;height:{{.InnerHeight}}px;font-family:body;font-size:{{.Body.Size}}px;color:{{.Body.Color}};text-align:left">{{esc .Content.Subtitle}}</div>
+  {{- end}}
+</div>
+</div>
